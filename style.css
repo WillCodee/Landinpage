@@ -106,8 +106,8 @@ section{
 
 .sobre-content{
     max-height: 100vh;
-    display: flex;
-    flex-flow: column wrap;
+    display: grid;
+    grid-template-columns: 1fr;
     justify-content: center;
     text-align: justify;
     max-width:  65rem;
