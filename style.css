@@ -109,7 +109,8 @@ section{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    max-width: 64rem;
+    text-align: justify;
+    max-width:  65rem;
     text-align: center;
 }
 
@@ -288,6 +289,7 @@ div.full-width{
 
 .footer{
     text-align: center;
+    max-height: 100vh;
 }
 
 .close-menu{
