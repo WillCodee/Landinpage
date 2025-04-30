@@ -241,44 +241,33 @@
             
 
 
-            <fieldset>
-                <form method="get">        
-                <div class="form-group">
-                    <label for="first-name">
-                        Primeiro Nome
-                    </label>
-                    <input type="text" name="first-name" id="first-name"
-                    placeholder="Seu Nome" required>
-                </div>
+                <fieldset>
+                    <legend>Contate Nos</legend>
+                    <div class="form-group">
+                        <label for="first-name">Primeiro Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu Nome" >
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu Sobrenome" >
+                    </div>
+                        
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Seu Email" >
+                    </div>
+                        
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                
+                    <div class="form-group full-width">
+                        <button type="submit" >Enviar Mensagem</button> <!-- Mudei para type="button" para evitar submit acidental -->
+                    </div>
+                </fieldset>
 
-                <div class="form-group">
-                    <label for="last-name" >
-                        Sobrenome
-                    </label>
-                    <input type="text" name="last-name" id="last-name"
-                    placeholder="Seu Sobrenome" required>
-                </div>
-                    
-                <div class="form-group">
-                    <label for="email">
-                        Email
-                    </label>
-                    <input type="email" name="email" id="email"
-                    placeholder="Seu Email" required>
-                </div>
-                   
-                <div class="form-group full-width">
-                    <label for="message">
-                        Mensagem
-                    </label>
-                    <textarea name="message"  id="message" cols="30" rows="10"></textarea>
-                </div>
-
-                <div class="form-group full-width">
-                    <button type="submit">Enviar Mensagem</button>
-                </div>
-            </form> 
-            </fieldset>
         </div>
         </div>
     </section>
@@ -289,6 +278,5 @@
 
     <a href="#" class="back-to-top"> <i class="fas fa-arrow-up"></i></a>
     
-
 </body>
 </html>
