@@ -427,6 +427,13 @@ div.full-width{
         display: none;
     }
 
+}
 
-
+@media (min-width: 801px){
+    .sobre-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        overflow-x: auto;
+    }
 }
